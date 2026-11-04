@@ -15,11 +15,9 @@ Before setting up, make sure you have the following installed on your system:
 -     Font: Any Nerd Font (e.g., FiraCode Nerd Font)
 -     Shell Tools: bash-completion, git, make
 
-[sudo pacman -S kitty fastfetch bash-completion git make]
+- sudo pacman -S kitty fastfetch bash-completion git make
 
-<img width="510" height="372" alt="pasted file" src="https://github.com/user-attachments/assets/bfd650d5-3db9-49da-8318-b4f2648d010f" /><img width="1000" height="1000" alt="61kMyE7hKcL _SL1000_" src="https://github.com/user-attachments/assets/545e3634-8909-4356-92cc-2a12c9f20235" />
-
-
+<img width="510" height="372" alt="pasted file" src="https://github.com/user-attachments/assets/bfd650d5-3db9-49da-8318-b4f2648d010f" />
 
 ## Quick Installation
 
@@ -55,6 +53,8 @@ fi
 [[ $- == *i* ]] && source ~/.local/share/blesh/out/ble.sh
 
 
+<img width="1000" height="1000" alt="61kMyE7hKcL _SL1000_" src="https://github.com/user-attachments/assets/545e3634-8909-4356-92cc-2a12c9f20235" />
+
 ### Colors Used
 
 - background              #0B0E14
@@ -85,6 +85,12 @@ fi
 - color13                 #C084FC
 - color14                 #A5F3FC
 - color15                 #F8FAFC
+
+## ⚠️ Troubleshooting & Known Issues
+If the album artwork isn't displaying correctly or appears stretched/broken in `fastfetch`:
+
+- **Kitty Graphics Protocol (Recommended):** By default, this setup uses Kitty's native graphics protocol (`"type": "kitty or chafa"` in `config.jsonc`), which offers sharp, hardware-accelerated rendering without external dependencies.
+
 
 🖤 Credits
 
