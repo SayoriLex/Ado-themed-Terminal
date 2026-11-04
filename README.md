@@ -1,4 +1,6 @@
-![<img width="945" height="485" alt="pasteds file" src="https://github.com/user-attachments/assets/a016019d-aa7d-4305-9381-4bc00739ad78" />]
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a016019d-aa7d-4305-9381-4bc00739ad78" 
+</p>
 
 # 🖤 Ado-themed-Terminal ▶️
 
