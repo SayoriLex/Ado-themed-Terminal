@@ -12,6 +12,8 @@ Before setting up, make sure you have the following installed on your system:
 -     Font: Any Nerd Font (e.g., FiraCode Nerd Font)
 -     Shell Tools: bash-completion, git, make
 
+[sudo pacman -S kitty fastfetch bash-completion git make]
+
 ## Quick Installation
 
 Simply clone this repository directly into your `~/.config` directory:
@@ -19,12 +21,12 @@ Simply clone this repository directly into your `~/.config` directory:
 cd ~/.config
 git clone [https://github.com/SayoriLex/Ado-themed-Terminal.git](https://github.com/SayoriLex/Ado-themed-Terminal.git)
 
-2. Predictive Bash (ble.sh)
+####Predictive Bash (ble.sh)
 
 To enable Fish-like autosuggestions directly in Bash:
 Bash
 
-# Clone and build ble.sh
+## Clone and build ble.sh
 git clone --recursive [https://github.com/akinomyoga/ble.sh.git](https://github.com/akinomyoga/ble.sh.git) ~/.local/share/blesh
 cd ~/.local/share/blesh
 make
@@ -32,21 +34,21 @@ make
 Add the following lines at the end of your ~/.bashrc:
 Bash
 
-# bash-completion
+## bash-completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
 fi
 
-# Auto-launch Fastfetch
+## Auto-launch Fastfetch
 if command -v fastfetch &> /dev/null; then
     fastfetch
 fi
 
-# Load ble.sh (Predictive Bash)
+## Load ble.sh (Predictive Bash)
 [[ $- == *i* ]] && source ~/.local/share/blesh/out/ble.sh
 
 
-# Colors Used
+### Colors Used
 
 - background              #0B0E14
 - foreground              #D5DCF0
