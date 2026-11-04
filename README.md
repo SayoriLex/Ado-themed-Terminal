@@ -18,7 +18,19 @@ Before setting up, make sure you have the following installed on your system:
 
 - sudo pacman -S kitty fastfetch bash-completion git make
 
-![<img width="510" height="372" alt="pasted file" src="https://github.com/user-attachments/assets/bfd650d5-3db9-49da-8318-b4f2648d010f" />]
+
+
+<p align="center">
+  <table border="1" bordercolor="#444c56" bgcolor="#0d1117" style="border-collapse: collapse;">
+    <tr>
+      <td style="padding: 0; line-height: 0;">
+        <img width="510" height="372" alt="System Info" src="https://github.com/user-attachments/assets/bfd650d5-3db9-49da-8318-b4f2648d010f" />
+      </td>
+    </tr>
+  </table>
+</p>
+
+
 
 ## Quick Installation
 
@@ -54,7 +66,17 @@ fi
 [[ $- == *i* ]] && source ~/.local/share/blesh/out/ble.sh
 
 
-![<img width="1000" height="1000" alt="61kMyE7hKcL _SL1000_" src="https://github.com/user-attachments/assets/545e3634-8909-4356-92cc-2a12c9f20235" />]
+<p align="center">
+  <table style="border-collapse: collapse; border: none; background: linear-gradient(45deg, #ff007f, #00d2ff); padding: 4px; display: inline-block;">
+    <tr>
+      <td style="padding: 0; line-height: 0; background: #0d1117;">
+        <img width="500" height="500" alt="Ado Album" src="https://github.com/user-attachments/assets/545e3634-8909-4356-92cc-2a12c9f20235" style="display: block;" />
+      </td>
+    </tr>
+  </table>
+</p>
+
+
 
 ### Colors Used
 
@@ -66,7 +88,7 @@ fi
 
 - cursor                  #38BDF8
 - cursor_text_color       #0B0E14
-- 
+  
 ### Normal Colors
 - color0                  #151B26
 - color1                  #E25B7B 
@@ -76,7 +98,7 @@ fi
 - color5                  #A855F7
 - color6                  #67E8F9
 - color7                  #94A3B8
-- 
+  
 ### Bright Colors
 - color8                  #475569 
 - color9                  #FB7185
