@@ -1,3 +1,6 @@
+<img width="945" height="485" alt="pasteds file" src="https://github.com/user-attachments/assets/a016019d-aa7d-4305-9381-4bc00739ad78" />
+
+
 # 🖤 Ado-themed-Terminal
 
 A custom terminal color scheme inspired by **Ado**
@@ -13,6 +16,10 @@ Before setting up, make sure you have the following installed on your system:
 -     Shell Tools: bash-completion, git, make
 
 [sudo pacman -S kitty fastfetch bash-completion git make]
+
+<img width="510" height="372" alt="pasted file" src="https://github.com/user-attachments/assets/bfd650d5-3db9-49da-8318-b4f2648d010f" /><img width="1000" height="1000" alt="61kMyE7hKcL _SL1000_" src="https://github.com/user-attachments/assets/545e3634-8909-4356-92cc-2a12c9f20235" />
+
+
 
 ## Quick Installation
 
