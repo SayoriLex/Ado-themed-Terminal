@@ -18,9 +18,7 @@ sudo pacman -S kitty fastfetch bash-completion git make
 Clone this repository and run the setup script:
 Bash
 
-git clone [https://github.com/YOUR_USERNAME/TerminalAdoTheme.git](https://github.com/YOUR_USERNAME/TerminalAdoTheme.git)
-cd TerminalAdoTheme
-./install.sh
+git clone
 
 2. Predictive Bash (ble.sh)
 
@@ -48,6 +46,37 @@ fi
 # Load ble.sh (Predictive Bash)
 [[ $- == *i* ]] && source ~/.local/share/blesh/out/ble.sh
 
+
+# =================================
+# Colors Used
+# =================================
+background              #0B0E14
+foreground              #D5DCF0
+
+selection_background    #1D263B
+selection_foreground    #FFFFFF
+
+cursor                  #38BDF8
+cursor_text_color       #0B0E14
+
+color0                  #151B26
+color1                  #E25B7B 
+color2                  #2DD4BF 
+color3                  #EAB308
+color4                  #38BDF8
+color5                  #A855F7
+color6                  #67E8F9
+color7                  #94A3B8
+
+color8                  #475569 
+color9                  #FB7185
+color10                 #5EEAD4
+color11                 #FDE047
+color12                 #7DD3FC
+color13                 #C084FC
+color14                 #A5F3FC
+color15                 #F8FAFC
+
 🖤 Credits
 
     Color & aesthetics: Inspired by Ado (アド) the singer.
@@ -55,10 +84,3 @@ fi
     Bash Engine: ble.sh.
 
     System Info: Fastfetch.
-    EOF
-
-5. Hacer commit en Git
-
-cd "$REPO_DIR"
-git add .
-git commit -m "feat: complete repo with fastfetch config, avatar, install script, and updated README"
